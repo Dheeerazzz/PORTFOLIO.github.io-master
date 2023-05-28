@@ -1,3 +1,16 @@
+    
+.descriptioncard{   
+    width: 255px;
+    height: 385px;
+    position: absolute;   /* position relative to outer box */
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%); /* translate box by -50% */
+    background-color: #83B799;
+    border-radius: 10px;
+
+}
+
 .navy{
     color: #fff;
     transition: 0.5s;
@@ -492,7 +505,7 @@ nav .fas{
   
   /* Style the back side */
   .flip-card-back {
-    background-color: #fccb06;
+    background-color: #E2CD6D;
     color: white;
     transform: rotateY(180deg);
     border-radius: 20px;
