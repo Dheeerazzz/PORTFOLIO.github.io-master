@@ -1,0 +1,18 @@
+.work:hover .layer{
+    height:100%;
+
+}
+
+ <img src="images/logos/html.png">
+                                <img src="images/logos/BeautifulSoup.jpg">
+                                <img src="images/logos/c.png">
+                                <img src="images/logos/css.jpg">
+                                <img src="images/logos/java.png">
+                                <img src="images/logos/js.png">
+                                <img src="images/logos/matplotlib.jpeg">
+                                <img src="images/logos/numpy.png">
+                                <img src="images/logos/opencv.png">
+                                <img src="images/logos/pandas.png">
+                                <img src="images/logos/seaborn.png">
+                                <img src="images/logos/tkinterr.png">
+                                

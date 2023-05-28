@@ -1,0 +1,499 @@
+.navy{
+    color: #fff;
+    transition: 0.5s;
+    font-weight: 700;
+    font-size: 20px;
+}
+.libs{
+    margin-left: -350px;
+    margin-top: -5px;
+}
+.headss{
+    font-weight:bolder;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left:20px;
+}
+.webdevs{
+    margin-left: -450px;
+}
+.navy:hover{
+    color: #fccb06;
+    font-size: 23px;
+}
+.school{
+    font-weight: 500;
+    font-size: 100px;
+}
+.logoo{
+    border:3px solid #fccb06;
+    border-radius: 10px;
+}
+#Education{
+    font-size: 25px;
+}
+
+.logoo:hover + .Hide{
+    display: block;
+}
+.Hide {
+    display: none;
+  }
+.libraries{
+    margin-left: -500px;
+}
+.librarie{
+    margin-left: 300px;
+    margin-top: -180px;
+}
+.mainname{
+    font-size: 50px;
+}
+
+.mainpic{
+    margin-left: 700px;
+    margin-top: -350px;
+
+}
+
+.proglang{
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.rec{
+    border-radius: 20px;
+}
+.btni{
+    margin-top:-140px ;
+    position: absolute;
+    margin-left: 300px;
+    display: block;
+    width:fit-content;
+    border:1px solid #fccb06;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background 0.5s;
+    font-weight: 500;
+    box-shadow: #fff;
+}
+.btni:hover{
+    background: #fccb06;
+    border:1px solid #0000;
+
+}
+.prglang{
+    font-weight: bolder;
+    color: #fccb06;
+    font-size: 35px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #000000;
+    color:#fff;
+}
+#form{
+    color: aqua;
+}
+#header{
+    width:100%;
+    height:100vh;
+  
+    background-size: COVER;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration:none ;
+    font-size: 18px;
+    position: relative;
+}
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #fccb06;
+}
+#about{
+    color:#fff;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fccb06;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 4px;
+}
+.tab-links{
+    margin-right:50px ;
+    font-size: 18px;
+    font-weight: 500;
+    cursor:pointer;
+    position: relative;
+}
+.tab-links::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background:#fccb06 ;
+    position:absolute;
+    left:0;
+    bottom:-8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width:50%;
+}
+.tab.contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contents ul li span{
+    color:#fccb06;
+    font-size: 30px;
+    font-weight: 400;
+}
+.tab-contents{
+    display:none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
+/*services*/
+#services{
+    padding:30px 0;
+    margin-top: 150px;
+}
+.services-list{
+    color:#000000;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    box-shadow: #fccb06;
+}
+.services-list div{
+    background: #fff;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s,tranform 0.5s;
+
+}
+.services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.services-list div a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 12px;
+    margin-top:20px ;
+    display:inline-block
+}
+.services-list div:hover{
+    background:#fccb06;
+    transform: translateY(-10px);
+}
+/*-------------portfolio---------------*/
+#portfolio{
+    padding: 50px 0;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.btn{
+    position: justify;
+    display: block;
+    margin: 50px auto;
+    width:fit-content;
+    border:1px solid #fff;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fccb06;
+    transition: background 0.5s;
+    font-weight: 500;
+
+}
+.btn:hover{
+    background:#fff;
+    
+}
+/*contact*/
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #000000;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:#fccb06;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color:#fccb06;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #fff;
+    opacity: 1.0;
+  transition: 0.3s;
+}
+.btn.btn2:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+
+}
+.contact-right form{
+    width:100%;
+}
+form input,form textarea{
+    width:100%;
+    border:0;
+    outline: none;
+    background: #fffdd0;
+    padding:15px;
+    margin:15px 0;
+    color:#8b3fba;
+    font-size: 18px;
+    border-radius: 6px;
+    
+}
+form.btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding:25px 0 ;
+    background:#000000 ;
+    font-weight: 300;
+    margin-top: 20px;
+}
+nav .fas{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(images/blue.jpg);
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #fccb06;
+        position: fixed;
+        top:0;
+        right: -200px;;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top:25px;
+        left:25px;
+        cursor:pointer;
+    }
+    .sub-title{
+        font-size: 40px;
+
+    }
+    .about-col-1,.about-col-2{
+        flex-basis: 100%;
+
+    }
+    .about-col-1{
+        margin-bottom: 30px ;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-left,.contact-right{
+        flex-basis: 100px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
+#msg{
+    color:#fffdd0;
+    margin-top: -40px;
+    display: block;
+}
+
+
+
+
+
+
+
+  
+.typer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: 150px;
+   margin-top: -250px;
+  }
+  
+  h1{
+    color: #fff;
+    font-size: 50px;
+  }
+  
+  span{
+    color: #fccb06;
+  }
+
+
+
+
+
+
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 420px;
+    border: 1px solid whitesmoke;
+    perspective: 1000px;
+    border-radius: 20px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 420px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 20px;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #fccb06;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+  }
