@@ -1,1 +1,1 @@
-Have a look at my Portfolio here : https://dheeerazzz.github.io/PORTFOLIO.github.io-master/
+Welcome to my work-in-progress portfolio! It's like a puzzle missing a few pieces or a sandwich without the fillings. But hey, Rome wasn't built in a day, right? I got caught up saving the world, but fear not, I'll be back to complete this masterpiece soon. Stay tuned for some coding magic and a sprinkle of humor. Thanks for your patience and for joining me on this hilarious journey!
